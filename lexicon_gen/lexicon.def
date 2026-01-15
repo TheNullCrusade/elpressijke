@@ -1,0 +1,31 @@
+with: std-ipa-features std-assimilations coronal-metathesis
+#############################################
+# .def File for Online version of Lexifer   #
+#############################################
+
+# Letters
+
+letters: a b θ d e χ h i j k l m n o p ʁ r s t u v w y ɣ ç ʔ æ ɒ
+
+#############################################
+# Phoneme Classes                           #
+# S = Stops                                 #
+# F = Fricatives                            #
+# O = Sonorants                             #
+# L = Liquids                               #
+# N = Nasals                                #
+# V = Vowels                                #
+# C = Consonants                            #
+# ***DISCLAIMER: SOME CONSONANTS MAY BE *** #
+# ***SORTED INTO WRONG CATEGORY.        *** #
+#############################################
+
+C = χ l s ʁ r θ n k t h d w b j m p v ɣ ç ʔ
+V = e i a y u æ ɒ o 
+S = t k p b d ʔ 
+O = r l n ʁ j w m
+F = θ χ s h ɣ ç 
+L = r l w j ʁ
+N = n m 
+# THIS CLASS IS PRETTY SELF EXPLANATORY
+Q = ʔ

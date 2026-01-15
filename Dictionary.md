@@ -1,0 +1,5 @@
+# 
+TODO:COMPLETE THE DICTIONARY WITH BASIC 2000-5000 words
+_[TODO:Insert QUOTE here in commontongue]_
+
+## SUB-TITLE HERE

@@ -1,6 +1,7 @@
 with: std-ipa-features std-assimilations coronal-metathesis
 #############################################
 # .def File for Online version of Lexifer   #
+# Web version of Lexifer compliant          #
 #############################################
 
 # Letters
@@ -16,16 +17,34 @@ letters: a b θ d e χ h i j k l m n o p ʁ r s t u v w y ɣ ç ʔ æ ɒ
 # N = Nasals                                #
 # V = Vowels                                #
 # C = Consonants                            #
+# W = Codas(Word Final)
 # ***DISCLAIMER: SOME CONSONANTS MAY BE *** #
 # ***SORTED INTO WRONG CATEGORY.        *** #
 #############################################
 
 C = χ l s ʁ r θ n k t h d w b j m p v ɣ ç ʔ
-V = e i a y u æ ɒ o 
-S = t k p b d ʔ 
+V = e i a y u æ ɒ o
+S = t k p b d
 O = r l n ʁ j w m
-F = θ χ s h ɣ ç 
+F = θ χ s h ɣ ç
 L = r l w j ʁ
-N = n m 
+N = n m
+W = s n r ʁ k t p θ
 # THIS CLASS IS PRETTY SELF EXPLANATORY
 Q = ʔ
+
+random-rate: 25
+
+# Macros
+
+$S = SL
+$N = SN
+$Q = sS
+$T = sSL
+$C = NS
+$O = LS
+
+categories:
+macsuline =
+neuter =
+feminine = 

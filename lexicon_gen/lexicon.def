@@ -29,19 +29,33 @@ O = r l n ʁ j w m
 F = θ χ s h ɣ ç
 L = r l w j ʁ
 N = n m
-W = s n r ʁ k t p θ
+W = s n r ʁ k t p θ ʔ
 # THIS CLASS IS PRETTY SELF EXPLANATORY
 Q = ʔ
 
 random-rate: 25
 
 # Macros
-
+$L = VV
 $S = SL
 $N = SN
 $Q = sS
 $T = sSL
+#CODA MACROS
 $C = NS
 $O = LS
 
-categories:
+% a  e  i  o  u  y  æ  ɒ
+a +  ai ae -  au -  -  ao
+e ea +  ei eu eu ui -  eo
+i ia -  +  jo iu yy je jo
+o -  oe oe +  ou -  -  -
+u -  ue ui -  -  -  -  - 
+y -  -  -  ui  -  + -  -
+æ -  ij -  -  ui ui ää -
+ɒ oa -  oi -  -  -  -  åå
+words: C?VW? C$LW? C$V$C? $LW $SVW? $SV$C $SV$O $S$LW? $S$L$C $S$L$O $NVW? $NV$C $NV$O $N$LW? $N$L$C $N$L$O $QVW? $QV$C $QV$O $Q$LW? $Q$L$C $Q$L$O $TVW? $TV$C $TV$O $T$LW? $T$L$C $T$L$O
+
+reject: ss
+reject: ^ʔ
+

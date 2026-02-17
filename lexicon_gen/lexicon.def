@@ -57,7 +57,7 @@ y -  -  -  ui  -  + -  -
 
 #TODO: DITCH THE LAST words: directive DEFINITION AND MAKE A CLUSTER TABLE 
 
-words: CVW? $TVV?$C $TVV?$O $TVV?W? 
+words: CVW? CCVW? CCVV?$C CCVV?$O $TVV?$C $TVV?$O $TVV?W?
 
 
 reject: ss
